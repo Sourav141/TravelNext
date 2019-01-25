@@ -1,0 +1,68 @@
+.slider .btn{
+
+    margin-top:20px;
+}
+
+.section-search input{
+
+    padding: 5px !important;
+    font-size: 18px !important;
+    width: 90% !important;
+    border: #f4f4f4 3px solid !important;
+}
+
+.autocomplete-content
+{
+position: absolute;
+width:92%;
+text-align:center;
+margin-left:39px;
+}
+
+.section-follow .fa-4x{
+    margin: 5px 10px;
+}
+
+.section-contact h5 {
+    margin-bottom: 30px;
+}
+
+nav ul a{
+    position: relative;
+}
+
+nav ul a:hover:after{
+    content : "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #f4f4f4;
+}
+nav ul a.active:after{
+    content : "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #f4f4f4;
+}
+
+.card-panel:hover{
+    background-color: #f4f4f4;
+	opacity:0.5;
+	
+}
+
+.btn:hover{
+    background-color:light red;
+}
+
+.card-image {
+	opacity:0.5;
+}
+.card-image:hover{
+	opacity:1.0;
+}
